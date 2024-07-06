@@ -7,6 +7,9 @@
 
 #header {
     background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
 
     .menu {
         margin: 0 150px;
@@ -102,7 +105,7 @@
 
 #banner {
     // height: 815px;
-    padding: 150px 0 120px;
+    padding: 120px 0 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,12 +119,18 @@
             // height: 240px;
             font-weight: 600;
             font-size: 68px;
+            animation: opacity 2s;
         }
 
         p {
-            margin-top: 50px;
-            padding-right: 20px
+            margin-top: 20px;
+            font-size: 18px;
+            padding-right: 20px;
+            animation: opacity 3s;
+            color: #555555;
+
         }
+
 
         button {
             margin-top: 30px;
@@ -147,6 +156,288 @@
 
 }
 
+#services {
+    padding: 0 20px 120px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+    .serviceItem {
+        padding: 40px;
+        width: 430px;
+        border: 1px solid silver;
+        cursor: pointer;
+        transition: all .5s;
+
+        img {
+            margin-bottom: 25px;
+            filter: grayscale(1);
+            transition: all .5s;
+
+        }
+
+        h4 {
+            margin-bottom: 15px;
+            transition: all .5s;
+
+        }
+
+        p {
+            color: #555555;
+            transition: all .5s;
+
+        }
+
+        &:hover {
+            background-color: black;
+
+            img {
+                scale: 1.1;
+
+
+            }
+
+            h4,
+            p {
+                color: white;
+                transform: translateY(-5px);
+                scale: 1.01;
+            }
+        }
+
+    }
+}
+
+
+#projects {
+    padding: 120px 0 120px;
+
+    .projectContent {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 100px;
+
+
+        .leftProject {
+            width: 630px;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .rightProject {
+            width: 600px;
+
+            ul {
+                li {
+                    font-size: 28px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid silver;
+                    list-style: none;
+                    cursor: pointer;
+                    color: #555555;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        span {
+                            color: #20B99C;
+                        }
+                    }
+
+                    i {
+                        font-size: 20px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#agency {
+    background-image: url('../public/img/agencyImg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    /* Optional: Adjusts the size of the background image */
+    background-position: center;
+    height: calc(100vh / 2);
+}
+
+#about {
+    padding: 100px;
+
+    .aboutContent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        .aboutItem {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .overlay {
+                background: rgba(0, 0, 0, 0.4);
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                transition: all .2s;
+                left: 0;
+                transform: translateX(100%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 24px;
+                padding: 30px;
+            }
+
+            &:hover {
+                .overlay {
+                    transform: translateX(0);
+
+                }
+            }
+
+        }
+    }
+}
+
+#contact {
+    padding: 0 50px 0px;
+    background-color: black;
+
+
+    .contactContent {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgb(53, 53, 53);
+
+
+        .info {
+            width: 500px;
+
+            padding: 30px;
+
+            h1 {
+                color: white;
+            }
+
+            p {
+                margin: 20px 0;
+                color: white;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+                margin: 10px 0;
+                display: block;
+            }
+
+        }
+
+        .contactIcon {
+            .icon {
+                width: 180px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(53, 53, 53);
+                transition: all .5s;
+                cursor: pointer;
+                border-bottom: none;
+
+                i {
+                    font-size: 20px;
+                    color: white;
+                    transition: all .5s;
+
+                }
+
+                &:hover {
+                    background-color: white;
+
+                    i {
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .bigLogo {
+        width: 100%;
+        color: white;
+        font-size: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 0 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+
+        ul {
+            display: flex;
+            gap: 40px;
+
+            li {
+                list-style: none;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+//
+.sliderBar {
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    margin-top: 30px;
+    position: relative;
+
+    .icon {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #00F0FF;
+        position: absolute;
+        top: -4px;
+        left: 40px;
+        animation: transformRight 4s infinite;
+    }
+}
+
+
 @keyframes moveRight {
     0% {
         transform: translateX(-40px);
@@ -158,6 +449,40 @@
 
     100% {
         transform: translateX(-40px);
+    }
+
+
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+        ;
+    }
+
+    50% {
+        opacity: .5;
+        ;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+@keyframes transformRight {
+    0% {
+        transform: translateX(60px)
+    }
+
+    50% {
+        transform: translateX(0px)
+    }
+
+    100% {
+        transform: translateX(60px)
     }
 
 
