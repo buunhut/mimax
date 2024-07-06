@@ -5,6 +5,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #header {
     background-color: black;
     position: sticky;
@@ -53,6 +57,11 @@
                             width: 100%;
 
                         }
+                    }
+
+                    a {
+                        color: white;
+                        text-decoration: none;
                     }
                 }
             }
@@ -157,7 +166,7 @@
 }
 
 #services {
-    padding: 0 20px 120px;
+    padding: 100px 0 20px 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -210,7 +219,7 @@
 
 
 #projects {
-    padding: 120px 0 120px;
+    padding: 100px 0 100px;
 
     .projectContent {
         display: flex;
@@ -413,6 +422,11 @@
             li {
                 list-style: none;
                 font-size: 20px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
             }
         }
     }
@@ -856,6 +870,8 @@
             align-items: flex-start;
             padding: 10px;
 
+
+
             ul {
                 display: block;
                 margin: 100px 0;
@@ -866,6 +882,8 @@
                     list-style: none;
                     font-size: 16px;
                     margin: 10px;
+
+
                 }
             }
 

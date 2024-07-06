@@ -44,10 +44,19 @@ const App = () => {
           <div className="logo">LOGO</div>
           <div className="menuContent">
             <ul>
-              <li>Trang Chủ</li>
-              <li>Dịch Vụ Của Chúng Tôi</li>
-              <li>Dự Án Của Chúng Tôi</li>
-              <li>Liên Hệ</li>
+              <li>
+                <a href="#banner">Trang Chủ</a>
+              </li>
+              <li>
+                <a href="#services">Dịch Vụ Của Chúng Tôi</a>
+              </li>
+              <li>
+                <a href="#projects">Dự Án Của Chúng Tôi</a>
+              </li>
+
+              <li>
+                <a href="#contact">Liên Hệ</a>
+              </li>
             </ul>
           </div>
           <div className="email">
@@ -375,10 +384,19 @@ const App = () => {
         <div className="footer">
           <h3>2024 MIMAX SOFTWARE GROUP, LLC</h3>
           <ul>
-            <li>Trang Chủ</li>
-            <li>Dịch Vụ Của Chúng Tôi</li>
-            <li>Dự Án Của Chúng Tôi</li>
-            <li>Liên Hệ</li>
+            <li>
+              <a href="#banner">Trang Chủ</a>
+            </li>
+            <li>
+              <a href="#services">Dịch Vụ Của Chúng Tôi</a>
+            </li>
+            <li>
+              <a href="#projects">Dự Án Của Chúng Tôi</a>
+            </li>
+
+            <li>
+              <a href="#contact">Liên Hệ</a>
+            </li>
           </ul>
         </div>
       </div>
