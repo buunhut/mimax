@@ -37,7 +37,6 @@ const App = () => {
     };
   }, []);
 
-  console.log(isVisible);
   return (
     <div>
       <div id="header" className="animate__animated animate__fadeInDown">
