@@ -41,28 +41,35 @@ const App = () => {
     <div>
       <div id="header" className="animate__animated animate__fadeInDown">
         <div className="menu">
-          <div className="logo">LOGO</div>
+          <div className="logo">ACG Group</div>
           <div className="menuContent">
             <ul>
               <li>
-                <a href="#banner">Trang Chủ</a>
+                <a href="#banner">Home</a>
               </li>
               <li>
-                <a href="#services">Dịch Vụ Của Chúng Tôi</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#projects">Dự Án Của Chúng Tôi</a>
+                <a href="#projects">Projects</a>
               </li>
 
               <li>
-                <a href="#contact">Liên Hệ</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
-          <div className="email">
-            <a href="mailto:luisHuynh@gmail.com">
-              <i class="fa-solid fa-envelope"></i> luisHuynh@gmail.com
-            </a>
+          <div>
+            <div className="phone">
+              <a href="tel:+090679049">
+                <i class="fa-solid fa-phone"></i> +84 909 679 049
+              </a>
+            </div>
+            <div className="email">
+              <a href="mailto:acggroupcapital@gmail.com">
+                <i class="fa-solid fa-envelope"></i> acggroupcapital@gmail.com
+              </a>
+            </div>
           </div>
         </div>
         <div className="animateMenuIconWrap">
@@ -344,22 +351,20 @@ const App = () => {
         <div className="contactContent">
           <div className="info">
             <div className="logo">
-              <h1>LOGO</h1>
+              <h1>ACG Group</h1>
             </div>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quisquam, ipsam. Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Quisquam, ipsam. Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Quisquam, ipsam.
+              <i className="fa-solid fa-location-dot"></i> 34A Pham Ngoc Thach
+              St, District 1, Ho Chi Minh City, Vietnam
             </p>
             <div>
-              <a href="tel:+909240886">
-                <i className="fa-solid fa-phone"></i> 0909240886
+              <a href="tel:+090679049">
+                <i class="fa-solid fa-phone"></i> +84 909 679 049
               </a>
             </div>
             <div>
-              <a href="mailto:nhut.nta@gmail.com">
-                <i className="fa-solid fa-envelope"></i> nhut.nta@gmail.com
+              <a href="mailto:acggroupcapital@gmail.com">
+                <i class="fa-solid fa-envelope"></i> acggroupcapital@gmail.com
               </a>
             </div>
           </div>
@@ -378,24 +383,24 @@ const App = () => {
             </div>
           </div>
           <div className="bigLogo animate__animated animate__swing animate__infinite	">
-            LOGO NAME
+            ACG Group
           </div>
         </div>
         <div className="footer">
-          <h3>2024 MIMAX SOFTWARE GROUP, LLC</h3>
+          <h3>2024 ACG GROUP - Copyright</h3>
           <ul>
             <li>
-              <a href="#banner">Trang Chủ</a>
+              <a href="#banner">Home</a>
             </li>
             <li>
-              <a href="#services">Dịch Vụ Của Chúng Tôi</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="#projects">Dự Án Của Chúng Tôi</a>
+              <a href="#projects">Projects</a>
             </li>
 
             <li>
-              <a href="#contact">Liên Hệ</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

@@ -68,6 +68,20 @@ html {
         }
 
         .email {
+            margin-top: 8px;
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                i {
+                    color: white;
+                }
+            }
+        }
+
+        .phone {
+
             a {
                 text-decoration: none;
                 color: white;
@@ -276,7 +290,7 @@ html {
 #agency {
     background-image: url('../public/img/agencyImg.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     /* Optional: Adjusts the size of the background image */
     background-position: center;
     height: calc(100vh / 2);
