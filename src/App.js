@@ -41,7 +41,9 @@ const App = () => {
     <div>
       <div id="header" className="animate__animated animate__fadeInDown">
         <div className="menu">
-          <div className="logo">ACG Group</div>
+          <div className="logo">
+            <img src="/img/logoAcg.png" alt="" />
+          </div>
           <div className="menuContent">
             <ul>
               <li>
@@ -351,7 +353,7 @@ const App = () => {
         <div className="contactContent">
           <div className="info">
             <div className="logo">
-              <h1>ACG Group</h1>
+              <img src="/img/logoAcg.png" alt="" />
             </div>
             <p>
               <i className="fa-solid fa-location-dot"></i> 34A Pham Ngoc Thach
