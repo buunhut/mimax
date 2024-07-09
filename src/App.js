@@ -83,17 +83,15 @@ const App = () => {
       </div>
       <div id="banner">
         <div className="leftBanner">
-          <TypingEffect text="HÃY ĐẾN VỚI CHÚNG TÔI" speed={100} />
+          <TypingEffect text="WELLCOME TO US" speed={100} />
           <p className="animate__animated animate__fadeInRight">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-            molestiae sunt ea ipsum exercitationem eligendi iste fuga laboriosam
-            alias at perferendis animi atque voluptatum dignissimos iure, fugiat
-            itaque delectus iusto doloremque! Expedita iure quo voluptatem
-            mollitia animi quidem autem, maxime, totam dolor earum praesentium
+            Our mission is to provide digital projects with the tools,
+            strategies and support they need to thrive in today's dynamic
+            business environment.
           </p>
           <SliderBar />
           <button className="animate__animated animate__fadeInUp animate__delay-1s">
-            BẮT ĐẦU
+            Start
           </button>
         </div>
         <div className="bannerImg animate__animated animate__fadeInUp">
@@ -103,54 +101,48 @@ const App = () => {
       <div id="services">
         <div className="serviceItem animate__animated animate__fadeInDown">
           <img src="/img/thinking.png" alt="" />
-          <h4>Service 1</h4>
+          <h4>Analyze</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            assumenda illum at sint ut expedita cupiditate laborum quasi iste
-            consequatur.
+            Analysis is a wonderful cognitive process that guides our
+            understanding of a project.
           </p>
         </div>
         <div className="serviceItem animate__animated animate__fadeInUp">
           <img src="/img/optimum.png" alt="" />
-          <h4>Service 1</h4>
+          <h4>Design</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            assumenda illum at sint ut expedita cupiditate laborum quasi iste
-            consequatur.
+            Achieving Design requires a careful balance of various factors and
+            considerations.
           </p>
         </div>
         <div className="serviceItem animate__animated animate__fadeInDown">
           <img src="/img/execution.png" alt="" />
-          <h4>Service 1</h4>
+          <h4>Implementation</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            assumenda illum at sint ut expedita cupiditate laborum quasi iste
-            consequatur.
+            The implementation of ideas and plans in a project, execution is the
+            bridge that leads the vision into reality.
           </p>
         </div>
         <div className="serviceItem animate__animated animate__fadeInUp">
           <img src="/img/branding.png" alt="" />
-          <h4>Service 1</h4>
+          <h4>Branding</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            assumenda illum at sint ut expedita cupiditate laborum quasi iste
-            consequatur.
+            We strive for excellence, innovation and continuous customer
+            satisfaction.
           </p>
         </div>
       </div>
       <div id="projects">
         <div className="projectContent">
           <div className="leftProject">
-            <h1>Projects demo của chúng tôi</h1>
-            <h1>Projects Demo</h1>
+            <h1>Our Creative Services</h1>
+            {/* <h1>Projects Demo</h1> */}
             <SliderBar />
           </div>
           <div className="rightProject ">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-              molestias sit atque aut accusantium obcaecati, velit cupiditate?
-              Voluptates magni ea assumenda, sunt animi porro corrupti eum nisi
-              exercitationem libero dicta aut quibusdam consectetur explicabo
+              We — universal place For wide spectrum creative services, which
+              will embody yours ideas V life And will allocate your brand.
             </p>
           </div>
         </div>
@@ -175,37 +167,25 @@ const App = () => {
             <ul>
               <li>
                 <p>
-                  <span>01 - </span>Lorem ipsum dolor sit amet
+                  <span>01 - </span>Brand design
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
               <li>
                 <p>
-                  <span>02 - </span>Lorem ipsum dolor sit amet
+                  <span>02 - </span>Digital Marketing
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
               <li>
                 <p>
-                  <span>03 - </span>Lorem ipsum dolor sit amet
+                  <span>03 - </span>Software development
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
               <li>
                 <p>
-                  <span>04 - </span>Lorem ipsum dolor sit amet
-                </p>
-                <i className="fa-solid fa-angles-right"></i>
-              </li>
-              <li>
-                <p>
-                  <span>05 - </span>Lorem ipsum dolor sit amet
-                </p>
-                <i className="fa-solid fa-angles-right"></i>
-              </li>
-              <li>
-                <p>
-                  <span>06 - </span>Lorem ipsum dolor sit amet
+                  <span>04 - </span>UI/UX design
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
