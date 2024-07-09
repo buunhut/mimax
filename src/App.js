@@ -97,7 +97,7 @@ const App = () => {
           </button>
         </div>
         <div className="bannerImg animate__animated animate__fadeInUp">
-          <img src="img/bannerImg.jpeg" alt="" />
+          <img src="img/bannerAcg.jpeg" alt="" />
         </div>
       </div>
       <div id="services">
