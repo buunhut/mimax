@@ -83,7 +83,7 @@ const App = () => {
       </div>
       <div id="banner">
         <div className="leftBanner">
-          <TypingEffect text="WELLCOME TO US" speed={100} />
+          <TypingEffect text="WELCOME TO US" speed={100} />
           <p className="animate__animated animate__fadeInRight">
             Our mission is to provide digital projects with the tools,
             strategies and support they need to thrive in today's dynamic
