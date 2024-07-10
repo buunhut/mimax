@@ -214,8 +214,8 @@ const App = () => {
                 : "aboutItem"
             }
           >
-            <img src="/img/about1.png" alt="" />
-            <div className="overlay">Lorem ipsum dolor sit.</div>
+            <img src="/img/s1.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -225,8 +225,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about2.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s2.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -236,8 +236,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about3.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s3.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -247,8 +247,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about4.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s4.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -258,8 +258,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about1.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s5.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -269,8 +269,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about2.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s6.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -280,8 +280,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about3.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s7.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -291,8 +291,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about4.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s8.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -302,8 +302,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about1.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s9.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -313,8 +313,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about2.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s10.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -324,8 +324,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about3.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s11.png" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
           <div
             className={
@@ -335,8 +335,8 @@ const App = () => {
             }
           >
             {" "}
-            <img src="/img/about4.png" alt="" />
-            <div className="overlay">orem ipsum dolor sit.</div>
+            <img src="/img/s12.jpeg" alt="" />
+            <div className="overlay">Our Project</div>
           </div>
         </div>
       </div>
