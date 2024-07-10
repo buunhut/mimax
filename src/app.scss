@@ -711,35 +711,35 @@ html {
 
         }
 
-        .animateMenuIconWrap {
-            // position: relative;
+        // .animateMenuIconWrap {
+        //     // position: relative;
 
-            .animateMenuIcon {
-                height: 140px;
-                width: 140px;
-                position: absolute;
-                top: 0;
-                left: 0;
-                background-color: #00F0FF;
-                z-index: 1;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50%;
-                transform: translateX(-40px);
-                animation: moveRight 5s linear infinite;
-            }
+        //     .animateMenuIcon {
+        //         height: 120px;
+        //         width: 120px;
+        //         position: absolute;
+        //         top: 0;
+        //         left: 0;
+        //         background-color: #00F0FF;
+        //         z-index: 1;
+        //         display: flex;
+        //         align-items: center;
+        //         justify-content: center;
+        //         border-radius: 50%;
+        //         transform: translateX(-40px);
+        //         animation: moveRight 5s linear infinite;
+        //     }
 
-            .menuBar {
-                position: fixed;
-                top: 50px;
-                left: 40px;
-                color: white;
-                font-size: 24px;
-                z-index: 2;
+        //     .menuBar {
+        //         position: fixed;
+        //         top: 50px;
+        //         left: 40px;
+        //         color: white;
+        //         font-size: 24px;
+        //         z-index: 2;
 
-            }
-        }
+        //     }
+        // }
 
     }
 
