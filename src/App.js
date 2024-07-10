@@ -460,9 +460,7 @@ const App = () => {
               <i className="fa-brands fa-linkedin-in"></i>
             </div>
           </div>
-          <div className="bigLogo animate__animated animate__flip animate__infinite animate__slower	">
-            ACG Group
-          </div>
+          <div className="bigLogo 	">ACG Group</div>
         </div>
         <div className="footer">
           <h3>ACG GROUP 2024 - Copyright</h3>
