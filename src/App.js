@@ -64,8 +64,8 @@ const App = () => {
           </div>
           <div>
             <div className="phone">
-              <a href="tel:+090679049">
-                <i class="fa-solid fa-phone"></i> +84 909 679 049
+              <a href="tel:+84909762672">
+                <i class="fa-solid fa-phone"></i> +84 909 762 672
               </a>
             </div>
             <div className="email">
@@ -436,8 +436,8 @@ const App = () => {
               St, District 1, Ho Chi Minh City, Vietnam
             </p>
             <div>
-              <a href="tel:+090679049">
-                <i class="fa-solid fa-phone"></i> +84 909 679 049
+              <a href="tel:+84909762672">
+                <i class="fa-solid fa-phone"></i> +84 909 762 672
               </a>
             </div>
             <div>
@@ -516,8 +516,8 @@ const App = () => {
           </div>
           <div className="item">
             <div className="phone">
-              <a href="tel:+090679049">
-                <i class="fa-solid fa-phone"></i> +84 909 679 049
+              <a href="tel:+84909762672">
+                <i class="fa-solid fa-phone"></i> +84 909 762 672
               </a>
             </div>
             <div className="email">
