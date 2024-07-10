@@ -9,6 +9,7 @@ const App = () => {
   const refAbout = useRef(null);
   const [isVisible, setIsVisible] = useState(true);
   const [isAbout, setIsAbout] = useState(false);
+  const [megaMenu, setMegaMenu] = useState(false);
 
   useEffect(() => {
     //lăn chuột
@@ -76,11 +77,17 @@ const App = () => {
         </div>
         <div className="animateMenuIconWrap">
           <div className="animateMenuIcon animate__animated animate__shakeX"></div>
-          <div className="menuBar">
+          <div
+            className="menuBar"
+            onClick={() => {
+              setMegaMenu(true);
+            }}
+          >
             <i className="fa-solid fa-bars"></i>
           </div>
         </div>
       </div>
+
       <div id="banner">
         <div className="leftBanner">
           <TypingEffect text="WELCOME TO US" speed={100} />
@@ -98,6 +105,7 @@ const App = () => {
           <img src="img/bannerAcg.jpeg" alt="" />
         </div>
       </div>
+
       <div id="services">
         <div className="serviceItem animate__animated animate__fadeInDown">
           <img src="/img/thinking.png" alt="" />
@@ -132,6 +140,7 @@ const App = () => {
           </p>
         </div>
       </div>
+
       <div id="projects">
         <div className="projectContent">
           <div className="leftProject">
@@ -193,7 +202,9 @@ const App = () => {
           </div>
         </div>
       </div>
+
       <div id="agency"></div>
+
       <div id="about" ref={refAbout}>
         <div className="aboutContent">
           <div
@@ -329,6 +340,91 @@ const App = () => {
           </div>
         </div>
       </div>
+
+      <div id="ourTeam">
+        <h1>Our Teams</h1>
+        <div className="content">
+          <div className="team">
+            <div className="img">
+              <img src="/img/ceo.jpeg" alt="" />
+            </div>
+            <h3>Louis Huynh</h3>
+            <p>CEO</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div className="team">
+            <div className="img">
+              <img src="/img/cfo.png" alt="" />
+            </div>
+            <h3>Hanna Le</h3>
+            <p>CFO</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div className="team">
+            <div className="img">
+              <img src="/img/cmo.jpeg" alt="" />
+            </div>
+            <h3>Van Nguyen</h3>
+            <p>CMO</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div className="team">
+            <div className="img">
+              <img src="/img/cto.jpeg" alt="" />
+            </div>
+            <h3>Luiz Lee</h3>
+            <p>CTO</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div className="team">
+            <div className="img">
+              <img src="/img/pm.jpeg" alt="" />
+            </div>
+            <h3>Paul Nguyen</h3>
+            <p>PM</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+          <div className="team">
+            <div className="img">
+              <img src="/img/developer.png" alt="" />
+            </div>
+            <h3>Zero Truong</h3>
+            <p>Developer</p>
+            <div className="menuIcon">
+              <i className="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-facebook-f"></i>
+              <i className="fa-brands fa-linkedin-in"></i>
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="contact">
         <div className="contactContent">
           <div className="info">
@@ -369,7 +465,7 @@ const App = () => {
           </div>
         </div>
         <div className="footer">
-          <h3>2024 ACG GROUP - Copyright</h3>
+          <h3>ACG GROUP 2024 - Copyright</h3>
           <ul>
             <li>
               <a href="#banner">Home</a>
@@ -386,7 +482,54 @@ const App = () => {
             </li>
           </ul>
         </div>
-        <p>Code by Zero - 0909240886</p>
+      </div>
+
+      <div
+        id="megaMenu"
+        style={{ transform: megaMenu ? "translateY(0)" : null }}
+      >
+        <button
+          onClick={() => {
+            setMegaMenu(false);
+          }}
+        >
+          <i className="fa-solid fa-xmark"></i>
+        </button>
+        <div className="img">
+          <img src="/img/logoAcg.png" alt="" />
+        </div>
+        <div className="content">
+          <div className="item">
+            <ul>
+              <li onClick={() => setMegaMenu(false)}>
+                <a href="#banner">Home</a>
+              </li>
+              <li onClick={() => setMegaMenu(false)}>
+                <a href="#services">Services</a>
+              </li>
+              <li onClick={() => setMegaMenu(false)}>
+                <a href="#projects">Projects</a>
+              </li>
+
+              <li onClick={() => setMegaMenu(false)}>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className="item">
+            <div className="phone">
+              <a href="tel:+090679049">
+                <i class="fa-solid fa-phone"></i> +84 909 679 049
+              </a>
+            </div>
+            <div className="email">
+              <a href="mailto:acggroupcapital@gmail.com">
+                <i class="fa-solid fa-envelope"></i> acggroupcapital@gmail.com
+              </a>
+            </div>
+            <h3>ACG Capital Group 2024 - Copyright</h3>
+          </div>
+        </div>
       </div>
     </div>
   );
