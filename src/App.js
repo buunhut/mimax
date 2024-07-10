@@ -385,9 +385,9 @@ const App = () => {
           </div>
           <div className="team">
             <div className="img">
-              <img src="/img/cto.jpeg" alt="" />
+              <img src="/img/cto.jpg" alt="" />
             </div>
-            <h3>Luiz Lee</h3>
+            <h3>Ricky Nguyen</h3>
             <p>CTO</p>
             <div className="menuIcon">
               <i className="fa-brands fa-twitter"></i>
@@ -398,9 +398,9 @@ const App = () => {
           </div>
           <div className="team">
             <div className="img">
-              <img src="/img/pm.jpeg" alt="" />
+              <img src="/img/pm.jpg" alt="" />
             </div>
-            <h3>Paul Nguyen</h3>
+            <h3>Thang Le</h3>
             <p>PM</p>
             <div className="menuIcon">
               <i className="fa-brands fa-twitter"></i>
