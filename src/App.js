@@ -188,13 +188,43 @@ const App = () => {
               </li>
               <li>
                 <p>
-                  <span>03 - </span>Software development
+                  <span>03 - </span>Software - Game Development
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
               <li>
                 <p>
-                  <span>04 - </span>UI/UX design
+                  <span>04 - </span>UI/UX Design
+                </p>
+                <i className="fa-solid fa-angles-right"></i>
+              </li>
+              <li>
+                <p>
+                  <span>05 - </span>Quantitative Trading
+                </p>
+                <i className="fa-solid fa-angles-right"></i>
+              </li>
+              <li>
+                <p>
+                  <span>06 - </span> AI Solultion
+                </p>
+                <i className="fa-solid fa-angles-right"></i>
+              </li>
+              <li>
+                <p>
+                  <span>07 - </span>Cloud Service
+                </p>
+                <i className="fa-solid fa-angles-right"></i>
+              </li>
+              <li>
+                <p>
+                  <span>08 - </span>CRM & Software
+                </p>
+                <i className="fa-solid fa-angles-right"></i>
+              </li>
+              <li>
+                <p>
+                  <span>09 - </span>Data Security
                 </p>
                 <i className="fa-solid fa-angles-right"></i>
               </li>
