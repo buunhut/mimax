@@ -387,7 +387,7 @@ const App = () => {
               <i className="fa-brands fa-github"></i>
             </div>
           </div>
-          <div className="team">
+          {/* <div className="team">
             <div className="img">
               <img src="/img/cfo.png" alt="" />
             </div>
@@ -399,7 +399,7 @@ const App = () => {
               <i className="fa-brands fa-linkedin-in"></i>
               <i className="fa-brands fa-github"></i>
             </div>
-          </div>
+          </div> */}
           <div className="team">
             <div className="img">
               <img src="/img/cmo.jpeg" alt="" />
