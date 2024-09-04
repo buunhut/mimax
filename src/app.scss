@@ -177,6 +177,7 @@ html {
     .bannerImg {
         width: 560px;
         height: 460px;
+        animation: upDown infinite 1s alternate;
 
         img {
             width: 100%;
@@ -185,6 +186,22 @@ html {
         }
     }
 
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+
+    }
+
+    // 100% {
+    //     transform: translateY(0px);
+
+    // }
 }
 
 #services {
